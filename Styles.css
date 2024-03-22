@@ -1,19 +1,12 @@
-/* Reset styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #f9f9f9;
-    color: #333;
+    background-color: #333333;
+    color: #39fddf;
 }
 
 header {
-    background-color: #222;
-    color: #fff;
+    background-color: #39fddf;
+    color: #333333;
     padding: 2rem;
     text-align: center;
 }
@@ -44,7 +37,7 @@ header {
 .card img {
     width: 100%;
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px #333333;
     transition: transform 0.3s ease;
 }
 
@@ -61,24 +54,34 @@ header {
 }
 
 .accordion-btn {
-    background-color: #eee;
-    color: #333;
+    background-color: #39fddf;
+    color: #333333;
     padding: 1rem;
     width: 100%;
     text-align: left;
     border: none;
     outline: none;
     cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.accordion-btn:hover {
+    background-color: lightseagreen;
 }
 
 .accordion-content {
     padding: 1rem;
-    display: none;
+    display:none;
+    
+}
+
+.active {
+    display: block;
 }
 
 footer {
-    background-color: #222;
-    color: #fff;
+    background-color: #333333;
+    color: #39fddf;
     text-align: center;
     padding: 1rem;
 }
