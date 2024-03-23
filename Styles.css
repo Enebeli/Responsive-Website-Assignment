@@ -36,6 +36,8 @@ header {
 
 .card img {
     width: 100%;
+    height: auto;
+    width: auto;
     border-radius: 8px;
     box-shadow: 0 4px 6px #333333;
     transition: transform 0.3s ease;
@@ -50,12 +52,12 @@ header {
 }
 
 .embedded-video h2 {
-    margin-bottom: 1rem; /* Adjust margin as needed */
+    margin-bottom: 1rem;
 }
 
 .video-container {
     position: relative;
-    padding-bottom: 56.25%; /* 16:9 aspect ratio (height:width) */
+    padding-bottom: 56.25%;
     height: 0;
     overflow: hidden;
 }
